@@ -8,7 +8,7 @@ public class Java_Program {
         System.out.print("Enter your number : ");
         int num = sc.nextInt();
         System.out.println("Your number is : " + num);
-//        System.out.println(sc.next());
+        System.out.println(sc.next());
 
     }
 }
