@@ -1,0 +1,66 @@
+NON-Primitive Datatype (Reference)
+
+=> contain a memory address of variable values because reference types wont store variables values directly in memory
+=> Stored in string, objects, arrays etc
+
+
+*** String =>
+
+=> array of Characteres
+=> designed to hold sequence of char in single variables
+=> cannot be modified after creation
+=> USe stringBuilder or Stringbuffer for String manipulation
+
+
+*** Class =>
+
+=> user-defined blueprint or prototype from which objects are created
+=> set of properties or methods that are common to all objects of one type
+
+Class Declaration =>
+
+1. Modifier = public or default access
+2. Class name
+3. Superclass = name of class's parent , using keyword extends, only for one parents
+4. Interface = list of interfaces implemented by class
+5. Body
+
+
+class Car {
+
+    String model;
+    int year;
+
+    Car(String model, int year){
+        this.model = model;
+        this.year = year;
+
+      }
+
+      void display(){
+           sout(model + " " + year);
+
+        }
+
+    }
+
+
+*** Object =>
+=> basic unit of OOPs and represents real-list entites.
+=> typical java program creates many objects
+=> interact by invoking methods
+
+
+1. State : attributes of object. reflects properties of object
+2. behavior : methods of object, response of an object to other objects
+3. identity : gives unique name to object and enables one object to interact with other objects
+
+
+
+*** Interfaces
+
+
+*** Array =>
+=> group of same type variables
+=> arrays are objects in java,
+=> direct super class of array type is object

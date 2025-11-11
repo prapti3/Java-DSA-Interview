@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Java_Sets/Java_Sets.iml" filepath="$PROJECT_DIR$/../Java_Sets/Java_Sets.iml" />
       <module fileurl="file://$PROJECT_DIR$/Practice day1.iml" filepath="$PROJECT_DIR$/Practice day1.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Practice day2/Practice day2.iml" filepath="$PROJECT_DIR$/../Practice day2/Practice day2.iml" />
     </modules>

@@ -1,0 +1,77 @@
+
+Difference between JDK,JRE,JVM
+
+** JDK =>
+- set of dev tools and libraries used to create java program.
+- works with JVM & JRE to run and build java application
+
+>> includes complier (javac) , debugger and utilities like jar and javadoc.
+>> Provides JRE, allows running java program
+>> required by developer to write, compile and debug code
+
+
+*** Components of JDK :
+1. JRE (JVM + Libraries)
+2. Dev Tools (Compiler, jar, javadoc, debugger)
+
+*** Note :
+1. JDK only for developement.
+2. JDK is platform depenedent.
+
+*** Working of JDK :
+1. source code(.java) = Developer write java program
+2. compilation = JDK's compiler (javac) converts code into bytecode stored in .class file
+3. Execution = JVM executes bytecode
+
+
+** JRE =>
+- Provides environment to run java programs on the system
+- includes Standard Libraries and JVM
+- dosent support compilation or debugging
+
+
+Note:
+1. JRE only for running application , not for developing
+2. platform dependent
+
+*** Working of JRE:
+
+1. Class loading - loads compiled .class files into memory
+2. bytecode verification - security and valiity of bytecode
+3. execution - uses JVM (interpreter + JIT ) executes instructions and make system calls
+
+
+
+
+** JVM =>
+- responsible for executing java program
+- responsible for converting bytecode into machine specific instructions
+
+1. part of both JDK and JRE
+2. Performs memory management and garbage collection
+
+*** Note:
+1. JVM platform dependent
+2. Bytecode is platform independent , can run on any JVM
+3. Modern JVMs rely on JIT compilation for performance
+
+
+
+
+
+____________________________________________________________
+
+
+*** Loading =>
+> class loader loads bytecode into memory
+
+*** Linking =>
+> Performs verification, perperation, resolution
+
+*** Initialization =>
+> Executes class constructors and static initializers
+
+*** Execution =>
+> Interprets or complies bytecode into native code
+
+

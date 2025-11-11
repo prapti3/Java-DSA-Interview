@@ -1,0 +1,27 @@
+=> highlevel, object oriented programming lang
+=> Developed by Sun Microsystems in 1995
+=> used for desktop, web, andriod, enterprise system
+=>
+
+* OOPS => Java supports OOPs concepts create modular and reusable code
+* Platform Independence => java programs can run on any OS with JVM
+* Robust and secure => reliability, security memory management and exception handling
+* Multithreading and concurrency => executes multiple tasks for efficiency
+* Rich API And Standard Libraries => buildin libraries
+* Frameworks for web dev
+* Open source libraries
+* Maintainability and Scalability
+
+
+
+What we can do with java???
+
+1. Mobile App = Android studio
+2. Web Dev = Spring, Spring Boot, Structs, Hibernate
+3. Desktop GUI App = Libraris like JavaFX, Swing
+4. Enterprise application = Backbone for banking, ERP, Largescale business software
+5. Game Dev = LibGDX, jMonkeyengine
+6. Big Data Tech = Hadoop , Apache Kafka
+7. IOT =
+8. Cloud-based app  => AWS, Azure and google cloud
+9. Scientific app

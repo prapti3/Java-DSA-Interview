@@ -1,0 +1,11 @@
+=> used to perform oprations on variables and values
+
+
+() - Parentheses
+*, /, % - Multiplication, Division, Modulus
++, - - Addition, Subtraction
+>, <, >=, <= - Comparison
+==, != - Equality
+&& - Logical AND
+|| - Logical OR
+= - Assignment
